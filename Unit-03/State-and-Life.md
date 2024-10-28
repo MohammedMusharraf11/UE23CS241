@@ -5,7 +5,7 @@ This phase occurs when a component is created and added to the DOM.
 
 1. **constructor()**
    - Initializes component's state.
-   - `super(props)` must be called before using `this.props`.
+   - `super(props)` must be called before using `this.props`. Otherwise `this.props` is **undefined**
    - Useful for setting the initial state and binding methods.
 
 2. **render()**
